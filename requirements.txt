@@ -4,6 +4,20 @@
 #
 #    pip-compile --output-file requirements.txt requirements.in
 #
+bleach==1.5.0             # via tensorflow-tensorboard
 django-extensions==1.9.7
-six==1.11.0               # via django-extensions
+enum34==1.1.6             # via tensorflow
+html5lib==0.9999999       # via bleach, tensorflow-tensorboard
+markdown==2.6.9           # via tensorflow-tensorboard
+numpy==1.13.3             # via tensorflow, tensorflow-tensorboard, tflearn
+olefile==0.44             # via pillow
+pillow==4.3.0             # via tflearn
+protobuf==3.4.0           # via tensorflow, tensorflow-tensorboard
+sastrawi==1.0.1
+six==1.11.0               # via bleach, django-extensions, html5lib, protobuf, tensorflow, tensorflow-tensorboard, tflearn
+tensorflow-tensorboard==0.4.0rc2  # via tensorflow
+tensorflow==1.4.0
+tflearn==0.3.2
 typing==3.6.2             # via django-extensions
+werkzeug==0.12.2          # via tensorflow-tensorboard
+wheel==0.30.0             # via tensorflow, tensorflow-tensorboard
