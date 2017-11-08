@@ -108,3 +108,8 @@ ENV/
 
 # config
 /waypy/settings/unique.py
+*tflearn_logs/
+*model.tflearn.index
+*model.tflearn.meta
+*model.tflearn.data*
+*training_data

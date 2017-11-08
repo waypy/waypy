@@ -1,0 +1,43 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hai",
+        "apa kabar",
+        "halo",
+        "selamat pagi",
+        "selamat siang",
+        "selamat sore",
+        "selamat malam"
+      ],
+      "responses": [
+        "hai",
+        "halo disana, apa kabar?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "dadah",
+        "sampai jumpa",
+        "selamat tinggal"
+      ],
+      "responses": [
+        "sampai jumpa lagi, makasih udah mampir",
+        "semoga harimu menyenangkan",
+        "main kesini lagi ya"
+      ]
+    },
+    {
+      "tag": "chain",
+      "patterns": [
+        "ada lagi",
+        "yang mirip tadi",
+        "terus",
+        "cariin lagi dong"
+      ],
+      "responses": []
+    }
+  ]
+}
