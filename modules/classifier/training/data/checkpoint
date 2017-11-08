@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/fajar/Projects/opensource/waypy/modules/classifier/training/data/model.tflearn"
+all_model_checkpoint_paths: "/home/fajar/Projects/opensource/waypy/modules/classifier/training/data/model.tflearn"
