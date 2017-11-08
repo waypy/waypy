@@ -99,3 +99,12 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# idea
+.idea/
+
+# local database
+/db.sqlite3
+
+# config
+/waypy/settings/unique.py
